@@ -24,8 +24,6 @@
 
 ### Предварительные требования
 
-- Python 3.11+
-- UV package manager
 - API ключ от [GigaChat](https://developers.sber.ru/studio/login)
 - API ключ от [WeatherAPI](https://www.weatherapi.com/)
 
@@ -33,8 +31,8 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/travel-weather-agent.git
-cd travel-weather-agent
+git clone https://github.com/Jud1k/weather-agent.git
+cd weather-agent
 
 # Создание виртуального окружения и установка зависимостей
 uv venv
@@ -42,5 +40,6 @@ source .venv/bin/activate  # Linux/MacOS
 # или
 .venv\Scripts\activate     # Windows
 
-uv pip install -r requirements.txt
+uv pip install -r requirements.tx
+
 
